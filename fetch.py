@@ -89,7 +89,7 @@ class GitHubScraper:
                     'company': self.clean_company_name(user_data.get('company')),
                     'location': user_data['location'] if user_data['location'] else "",
                     'email': user_data['email'] if user_data['email'] else "",
-                    'hireable': user_data['hireable'] if user_data['hireable'] is not None else False,
+                    'hireable': "true" if user_data['hireable'] is not None else "false",
                     'bio': user_data['bio'] if user_data['bio'] else "",
                     'public_repos': user_data['public_repos'],
                     'followers': user_data['followers'],
@@ -135,8 +135,8 @@ class GitHubScraper:
                     'stargazers_count': repo['stargazers_count'],
                     'watchers_count': repo['watchers_count'],
                     'language': repo['language'] if repo['language'] else "",
-                    'has_projects': repo['has_projects'],
-                    'has_wiki': repo['has_wiki'],
+                    'has_projects': "true" if repo['has_projects'] else "false",
+                    'has_wiki': "true" if repo['has_wiki'] else "false",
                     'license_name': repo['license']['key'] if repo.get('license') else ""
                 }
                 
@@ -180,9 +180,9 @@ def main():
     
     # Create README.md
     with open('README.md', 'w') as f:
-        f.write(f"""# GitHub Users in Delhi
+        f.write(f"""# GitHub Users in Zurich
 
-This repository contains data about GitHub users in Delhi with over 100 followers and their repositories.
+This repository contains data about GitHub users in Zurich with over 100 followers and their repositories.
 
 ## Files
 
