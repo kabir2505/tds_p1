@@ -9,10 +9,10 @@
 **Note:** The dataset does not contain the entirety of 2024's days, as the year 2024 is not yet complete.
 ## Charts for the insights
 ### Language popularity over time 
-![Data Chart](language_popularity.png)
+![Data Chart](./imgs/language_popularity.png)
 
 ### Typescript trend 
-![Data Chart](typescript_trend.png)
+![Data Chart](./imgs/typescript_trend.png)
 
 
 
