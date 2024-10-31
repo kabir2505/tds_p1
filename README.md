@@ -20,7 +20,7 @@
 
 - **users.csv**: Contains information about 475 GitHub users in Delhi with over 100 followers.
 - **repositories.csv**: Contains information about 22,697 public repositories from these users.
-- **gitscrap.py**: Python script used to collect this data.
+
 
 ## Data Collection
 
