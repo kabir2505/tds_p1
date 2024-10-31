@@ -1,10 +1,10 @@
 ## Data Collection Overview
 
-- To grab the data, I checked out the GitHub API docs to get the lowdown on the endpoints and parameters I needed for my queries. I used the `requests` library to shoot out GET requests and pull in repository and user data. Then, I parsed the JSON responses into Pandas DataFrames for some deeper analysis.
+- <u>Data collection:</u> To grab the data, I checked out the GitHub API docs to get the lowdown on the endpoints and parameters I needed for my queries. I used the `requests` library to shoot out GET requests and pull in repository and user data. Then, I parsed the JSON responses into Pandas DataFrames for some deeper analysis.
 
-- TypeScript is emerging as a major growth opportunity in Zurich’s market, boasting a 20% increase in demand compared to JavaScript. With just 15% of developers currently using it (lower competition), there’s a unique gap for developers to enhance their skills and marketability, positioning themselves ahead of the competition in this evolving landscape.
+- <u>Interesting facts</u> : <b>`TypeScript`</b> is emerging as a major growth opportunity in Zurich’s market, boasting a <b>20%</b> increase in demand compared to JavaScript. With just </b>15%</b> of developers currently using it (<i>low competition</i>), there’s a unique gap for developers to enhance their skills and marketability, positioning themselves ahead of the competition in this evolving landscape.
 
-- Developers should strategically combine Python and TypeScript skills to enhance their job market appeal. Python offers 3,301 repositories and 86 hireable developers, while TypeScript is gaining traction in frontend development. By focusing on data-driven projects, developers can leverage Python’s versatility alongside TypeScript’s growth potential, creating a competitive edge in a rapidly evolving tech landscape.
+- <u>Actionable recommendations</u>:Developers should strategically combine `Python` and `TypeScript` skills to enhance their job market appeal. Python offers <b>3,301 </b>repositories and <b>86</b> hireable developers, while TypeScript is gaining traction in frontend development. By focusing on data-driven projects, developers can leverage Python’s versatility alongside TypeScript’s growth potential, creating a competitive edge in a rapidly evolving tech landscape.
 
 **Note:** The dataset does not contain the entirety of 2024's days, as the year 2024 is not yet complete.
 ## Charts for the insights
